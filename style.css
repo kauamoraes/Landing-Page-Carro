@@ -1,0 +1,129 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    margin-bottom: 0%;
+}
+
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: 100;
+    font-style: normal;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+
+.cabeça{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+
+.titulo{
+    padding-top: 13px;
+    margin-left: 200px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600px;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    margin-right: 350px;
+    margin-top: 15px; 
+}
+
+
+.nav-bar > a{
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+    color: black;
+    justify-content: space-between;
+}
+
+
+.inside{
+    padding-top: 100px;
+}
+
+
+.titulos-subtitulos{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.titulo-corpo{
+    padding-top: 95px;
+    margin-left: 85px;
+    display: flex;
+    flex-direction: row;
+    font-size: 45px;
+}
+
+
+.subtitulo-corpo{
+    padding-top: 0%;
+    margin-left: 85px;
+    font-size: 35px;
+    color: blue;
+}
+
+
+.lorem{
+    margin-left: 89px;
+    display: flex;
+    flex-direction: column;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.btn{
+    padding: 30px;
+    margin-left: 59px;
+    position: relative;
+}
+
+
+.btn > input{
+    background-color: blue;
+    color: white;
+    border-style: none;
+    border-radius: 7px;
+    height: 35px;
+    width: 136px;
+    cursor: pointer;
+}
+
+
+
+.imagem{
+    position: absolute;
+    width: 430px;
+    height: 400px;
+    background: #eaeaea;
+    border: 20px solid #1743e3;
+    margin-left: 900px;
+    top: 170px;
+    transform: rotate(45deg);
+}
+
+
+.imagem > img{
+    height: 400px;
+    transform: rotate(-45deg);
+    margin-left: -250px;
+    padding-top: 10px;
+    margin-top: 85px;
+    min-width: 100%;
+    max-width: 10;
+}
